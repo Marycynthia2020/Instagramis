@@ -92,6 +92,7 @@ nav {
     top: 1%;
     left: 60%;
     z-index: -1;
+    background-color: #efefee;
 }
 .round-images img {
     width: 66px;
