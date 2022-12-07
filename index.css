@@ -4,6 +4,7 @@ body {
     background-color: #efefee;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
+    position: relative;
 }
 nav {
     display: flex;
@@ -82,13 +83,13 @@ nav {
 }
 .big-container {
     margin-left: 15%;
-    position: relative;
+    /* position: relative; */
     z-index: -1;
 }
 .container {
     max-width: 319px;
     position: absolute;
-    top: 20%;
+    top: 1%;
     left: 60%;
     z-index: -1;
 }
