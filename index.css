@@ -4,7 +4,6 @@ body {
     background-color: #efefee;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
-    position: relative;
 }
 nav {
     display: flex;
@@ -83,13 +82,14 @@ nav {
 }
 .big-container {
     margin-left: 15%;
-    /* position: relative; */
-    z-index: -2;
+    position: relative;
+    z-index: -1;
 }
 .container {
+    min-width: 150px;
     max-width: 319px;
     position: absolute;
-    top: 1%;
+    top: 20%;
     left: 60%;
     z-index: -1;
     background-color: #efefee;
@@ -290,18 +290,19 @@ textarea {
 #reduce {
     font-size: 12px;
 }
-.list {
-    margin: 20px 0;
-}
 .list a {
     font-size: 12px;
     font-weight: 400;
     text-decoration: none;
     color: #C7C7C7;
+    margin: 30px 0;
 }
 .from {
     font-size: 12px;
     font-weight: 400;
     color: #C7C7C7;
     text-transform: uppercase;
+}
+.anchor a:hover {
+    text-decoration: underline;
 }
